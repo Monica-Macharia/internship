@@ -1,6 +1,18 @@
-// function Anchor(){
-//     return(
-//         <a id= "contact" href="/contact"><p className = "naming">Zuri Books</p></a>
-//     )
-// }
-// export default Anchor;
+// import react from 'react';
+// import { useNavigate } from 'react-router-dom'
+// import Contact from "./Contact";
+
+import {Route, Routes} from 'react-router-dom';
+
+function Anchor(){
+
+   
+    return(
+        <>
+    <Routes>
+        <Route path="/contact" element={<Contact/>}/>
+        </Routes>
+        
+  </>  )
+}
+export default Anchor;

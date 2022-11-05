@@ -7,8 +7,8 @@ import Python from './Python.js';
 import Team from './Team.js';
 import Twitter from './Twitter.js';
 import Socials from './Socials.js';
-// import Anchor from './Anchor.js';
-import Contact from './Contact.js';
+import Anchor from './Anchor.js';
+// import Contact from './Contact.js';
 
 function App() {
   return (
@@ -29,12 +29,13 @@ function App() {
        <Python />
        <Background/>
       <Design />
+      <Anchor />
       </div>
       <Socials />
       <Footer />
-      {/* <Anchor /> */}
       
-     <Contact />
+      
+     {/* <Contact /> */}
      
     
      
