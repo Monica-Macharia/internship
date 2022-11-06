@@ -383,8 +383,8 @@ box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     text-align: left;
     font-family: 'Inter';
   font-style: normal;
-    margin-top: -8%;
-    margin-left: 40%;
+    margin-top: -10%;
+    margin-left: 57%;
     /* padding-top: 30%; */
     
 }
@@ -395,7 +395,7 @@ box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 border: 1px solid #D0D5DD;
 box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   margin-top: 1.5%; 
-  margin-left: 40%;
+  margin-left: 57%;
   width: 390px;
 height: 24px;
 
@@ -407,13 +407,16 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 }
+#contact{
+  text-decoration-line: none;
+}
 #check1{
   margin-left: -24%;
   margin-top: 5%;
 }
 #check{
   margin-left: -20%;
-  margin-top: -2.5%;
+  margin-top: -3.2%;
 }
 #btn__submit{
   margin-left: -24%;
