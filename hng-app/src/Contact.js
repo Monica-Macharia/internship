@@ -2,6 +2,10 @@ import Footer from "./Footer";
 import React from 'react';
 
 function Contact(){
+     function giveWarning() {
+          alert("Message sent");
+          // document.write ("Warning message.");
+       } 
    return(
         <div id= "contacts">
        <h2 id= "me">Contact Me</h2>
@@ -47,7 +51,7 @@ function Contact(){
                 />  
                 <label id="check"> You agree to providing your data to Macharia Nyaguthii who may contact you.</label>  
 
-                <button id="btn__submit" type="submit">Send message</button>
+                <button id="btn__submit" type="submit" onClick={giveWarning}>Send message</button>
                 </form>
                 <Footer />
                 </div>
