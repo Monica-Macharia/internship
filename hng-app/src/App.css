@@ -173,6 +173,34 @@ align-items: center;
 text-align: center;
 
 }
+/* p.contactme{
+
+} */
+p.contactme{
+  text-decoration: none;
+  text-align: center;
+  /* width: 150%; */
+  height: 70px;
+  width: 33%;
+  /* height: 706px; */ 
+  background-color: #EAECF0;
+  color: black;
+  /* text-decoration-line: none; */
+  padding-left: 27%; 
+ 
+ /* padding-right: 30%;  */
+ margin-top: 28px;
+ margin-left: 20%;
+ margin-right: 20%;
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+}
 a#contacts{
   text-align: center;
   /* width: 150%; */

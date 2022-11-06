@@ -1,3 +1,5 @@
+
+
 import './App.css';
 import Background from './Background.js';
 import Books from './Books.js';
@@ -7,7 +9,8 @@ import Python from './Python.js';
 import Team from './Team.js';
 import Twitter from './Twitter.js';
 import Socials from './Socials.js';
-import Anchor from './Anchor.js';
+import Tag from './Tag.js';
+
 // import Contact from './Contact.js';
 
 function App() {
@@ -29,7 +32,7 @@ function App() {
        <Python />
        <Background/>
       <Design />
-      <Anchor />
+      <Tag />
       </div>
       <Socials />
       <Footer />
